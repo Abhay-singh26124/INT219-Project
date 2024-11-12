@@ -1,0 +1,48 @@
+nav{
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    height: 60px;
+    padding-top: 10px;
+    
+}
+nav li{
+    list-style: none;
+    
+}
+nav li a{
+    text-decoration:none;
+    color: white;
+    padding: 5px;
+}
+nav li a:hover{
+    border: 1px solid white;
+    
+}
+#div1{
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#div2{
+    background-color: gray;
+    width: 100px;
+    height: 100px;
+}
+#query{
+   
+   border-radius: 50%;
+   border-top: 4px solid black;
+   border-right: 6px solid black;
+   border-bottom: 8px solid black;
+   border-left: 10px solid black;
+    height: 300px;
+    width: 300px;
+    
+}
+#query:hover{
+    transform: rotate(360);
+}

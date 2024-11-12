@@ -1,0 +1,52 @@
+/* Resetting default margin and padding */
+body, nav, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #834BC5;
+    height: 80px; 
+     /* Background color */
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%; /* Align items to the right */
+}
+
+nav ul li {
+    margin-left: 80px; /* Add spacing between each list item */
+}
+
+nav ul li:first-child {
+    margin-left: auto; /* Push the first item to the far right */
+}
+
+
+
+
+nav ul li a {
+    color: white; /* Link text color */
+    text-decoration: none; /* Remove default underline */
+    padding: 20px 15px; /* Add padding to each link */
+    display: inline-block;
+    font-size: 25px;  /* Make the links behave like blocks */
+}
+
+nav ul li a:hover {
+    background-color: #C54B93; /* Change background color on hover */
+}
+nav ul li button{
+    padding: 10px;
+
+}
+div{
+    background-color: black;
+    height: 80vh;
+}
+#inside{
+    background-color: #C54B93;
+}

@@ -1,0 +1,33 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+nav{
+    background-color: whitesmoke;
+    height: 100px;
+    width: 100%;
+    
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    height: 100%; /* Align items to the right */
+}
+nav ul li a {
+     /* Link text color */
+    text-decoration: none; /* Remove default underline */
+    padding: 20px 15px; /* Add padding to each link */
+    display: inline-block;
+    font-size: 25px;  /* Make the links behave like blocks */
+}
+
+button{
+    width: 80px;
+    border-radius: 100px;
+    height: 40px;
+}
+div{
+    display: flex;
+    justify-content: space-evenly;
+}
